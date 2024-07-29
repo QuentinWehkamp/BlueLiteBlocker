@@ -41,7 +41,9 @@
 
             // hook HomeTimeline API to parse timeline tweets
             if (arguments[1].search('https://twitter.com/i/api/graphql/.*/HomeTimeline') !== -1 ||
-                arguments[1].search('https://twitter.com/i/api/graphql/.*/HomeLatestTimeline') !== -1
+                arguments[1].search('https://twitter.com/i/api/graphql/.*/HomeLatestTimeline') !== -1 ||
+                arguments[1].search('https://x.com/i/api/graphql/.*/HomeTimeline') !== -1 ||
+                arguments[1].search('https://x.com/i/api/graphql/.*/HomeLatestTimeline') !== -1
             ) {
                 if (!this._xhr_response_hooked) {
                     this._xhr_response_hooked = true;
@@ -50,7 +52,9 @@
             }
 
             // hook TweetDetail API to parse tweet replies
-            if (arguments[1].search('https://twitter.com/i/api/graphql/.*/TweetDetail') !== -1) {
+            if (arguments[1].search('https://twitter.com/i/api/graphql/.*/TweetDetail') !== -1 ||
+            arguments[1].search('https://x.com/i/api/graphql/.*/TweetDetail') !== -1
+        ) {
                 if (!this._xhr_response_hooked) {
                     this._xhr_response_hooked = true;
                     set_response_hook(this, 'replies');
@@ -58,7 +62,9 @@
             }
 
             // hook search API to parse search and trending topics
-            if (arguments[1].search('https://twitter.com/i/api/2/search/adaptive.json') !== -1) {
+            if (arguments[1].search('https://twitter.com/i/api/2/search/adaptive.json') !== -1 ||
+            arguments[1].search('https://x.com/i/api/2/search/adaptive.json') !== -1
+    ) {
                 if (!this._xhr_response_hooked) {
                     this._xhr_response_hooked = true;
                     set_response_hook(this, 'search');
@@ -67,7 +73,9 @@
 
             // hook notifications API to parse notification feed
             if (arguments[1].search('https://twitter.com/i/api/2/notifications/all.json') !== -1 ||
-                arguments[1].search('https://twitter.com/i/api/2/notifications/mentions.json') !== -1) {
+                arguments[1].search('https://twitter.com/i/api/2/notifications/mentions.json') !== -1 ||
+                arguments[1].search('https://x.com/i/api/2/notifications/all.json') !== -1 ||
+                arguments[1].search('https://x.com/i/api/2/notifications/mentions.json') !== -1) {
                 if (!this._xhr_response_hooked) {
                     this._xhr_response_hooked = true;
                     set_response_hook(this, 'search');

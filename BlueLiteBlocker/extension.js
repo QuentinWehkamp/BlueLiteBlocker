@@ -1,5 +1,5 @@
 const default_settings = {
-    version: "0.0.0.8",
+    version: "0.0.0.10",
     config_ver: 5,
     hide_promote: false,
     hard_hide: false,
