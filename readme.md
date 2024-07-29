@@ -1,22 +1,12 @@
 # ![Logo](BlueLiteBlocker/icons/logo-48.png) BlueLiteBlocker (v0.0.0.9)
 
-**Blue Checks are known to the state of California to cause eye damage and reproductive harm.**
+Forked to add x.com compatibility
 
 ### About
 This extension allows you to hide Tweets from Twitter Blue users you don't follow, if they have less than a set number of followers.
 You can customize the follower threshold and choose between collapsing or removing Tweets. 
 
 **Currently Supports**: FireFox, Chrome
-### Release Builds
-**Note:** the WebStore take a while to approve extension updates. If the store version doesn't match the GitHub version, consider installing from [source](#How-To-Install-From-Source) instead.
-
-**[How to install from source](#How-To-Install-From-Source)**
-
-| Latest Release | Release Version                                                                                        |
-|----------------|--------------------------------------------------------------------------------------------------------|
-| Source Code    | [v0.0.0.9](https://github.com/MalwareTech/BlueLiteBlocker/archive/refs/tags/v0.0.0.9.zip)              |
-| Chrome Store   | [v0.0.0.9](https://chrome.google.com/webstore/detail/blueliteblocker/gimbefnamedicgajjballjjhanhnpjce) |
-| Firefox Store  | [v0.0.0.9](https://addons.mozilla.org/en-US/firefox/addon/blueliteblocker/)                            |
 
 [**Demo Video**](https://www.youtube.com/watch?v=nyQomTilJXo)
 <p style="text-align: center;" align="center">
