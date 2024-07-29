@@ -1,4 +1,4 @@
-# ![Logo](BlueLiteBlocker/icons/logo-48.png) BlueLiteBlocker (v0.0.0.9)
+# ![Logo](BlueLiteBlocker/icons/logo-48.png) BlueLiteBlocker (v0.0.0.10)
 
 Forked to add x.com compatibility
 
