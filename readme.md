@@ -7,6 +7,17 @@ This extension allows you to hide Tweets from Twitter Blue users you don't follo
 You can customize the follower threshold and choose between collapsing or removing Tweets. 
 
 **Currently Supports**: FireFox, Chrome
+### Release Builds
+**Note:** the WebStore take a while to approve extension updates. If the store version doesn't match the GitHub version, consider installing from [source](#How-To-Install-From-Source) instead.
+
+**[How to install from source](#How-To-Install-From-Source)**
+
+| Latest Release | Release Version                                                                                        |
+|----------------|--------------------------------------------------------------------------------------------------------|
+| Source Code    | [v0.0.0.10]([https://github.com/MalwareTech/BlueLiteBlocker/archive/refs/tags/v0.0.0.9.zip](https://github.com/QuentinWehkamp/BlueLiteBlocker/releases/tag/v0.0.0.10))              |
+| Chrome Store   | [v0.0.0.9](https://chrome.google.com/webstore/detail/blueliteblocker/gimbefnamedicgajjballjjhanhnpjce) |
+| Firefox Store  | [v0.0.0.10](https://addons.mozilla.org/en-US/firefox/addon/new-blueliteblocker/)                            |
+I cant release it on the chrome store cause they need me to pay 5 dollars and i dont want to, but you can download the extension zip and just install it on chrome
 
 [**Demo Video**](https://www.youtube.com/watch?v=nyQomTilJXo)
 <p style="text-align: center;" align="center">
